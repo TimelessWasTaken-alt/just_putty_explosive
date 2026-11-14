@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "just_putty_explosive:explosive_putty"
+    },
+    {
+      "item": "minecraft:flint"
+    }
+  ],
+  "result": {
+    "item": "just_putty_explosive:incendiary_explosive_putty",
+    "count": 1
+  }
+}

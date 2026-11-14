@@ -1,0 +1,53 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - just_putty_explosive",
+        "order": 0
+      },
+      "projectName": "just_putty_explosive",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\sjmay\\MCreatorWorkspaces\\just_putty_explosive\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\sjmay\\MCreatorWorkspaces\\just_putty_explosive\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dmcreator%%C:\\Users\\sjmay\\MCreatorWorkspaces\\just_putty_explosive\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {
+        "MOD_CLASSES": "mcreator%%C:\\Users\\sjmay\\MCreatorWorkspaces\\just_putty_explosive\\bin\\main"
+      },
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - just_putty_explosive",
+        "order": 1
+      },
+      "projectName": "just_putty_explosive",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Users\\sjmay\\MCreatorWorkspaces\\just_putty_explosive\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Users\\sjmay\\MCreatorWorkspaces\\just_putty_explosive\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dmcreator%%C:\\Users\\sjmay\\MCreatorWorkspaces\\just_putty_explosive\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "env": {
+        "MOD_CLASSES": "mcreator%%C:\\Users\\sjmay\\MCreatorWorkspaces\\just_putty_explosive\\bin\\main"
+      },
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "just_putty_explosive:custom/explosive_putty",
+  "textures": {
+    "all": "just_putty_explosive:block/explosive_putty_block",
+    "particle": "just_putty_explosive:block/explosive_putty_block",
+    "0": "just_putty_explosive:block/explosive_putty_block"
+  },
+  "render_type": "solid"
+}

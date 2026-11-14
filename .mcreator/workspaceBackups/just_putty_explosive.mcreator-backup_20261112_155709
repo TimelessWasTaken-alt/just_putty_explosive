@@ -1,0 +1,376 @@
+{
+  "mod_elements": [
+    {
+      "name": "ExplosivePutty",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "explosive_putty",
+      "metadata": {
+        "files": [
+          "src/main/java/net/timelesswastaken/justputtyexplosive/block/ExplosivePuttyBlock.java",
+          "src/main/resources/assets/just_putty_explosive/blockstates/explosive_putty.json",
+          "src/main/resources/assets/just_putty_explosive/models/item/explosive_putty.json",
+          "src/main/resources/assets/just_putty_explosive/models/block/explosive_putty.json",
+          "src/main/resources/data/just_putty_explosive/loot_tables/blocks/explosive_putty.json"
+        ]
+      }
+    },
+    {
+      "name": "BlastingCap",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "blasting_cap",
+      "metadata": {
+        "files": [
+          "src/main/java/net/timelesswastaken/justputtyexplosive/item/BlastingCapItem.java",
+          "src/main/resources/assets/just_putty_explosive/models/item/blasting_cap.json"
+        ]
+      }
+    },
+    {
+      "name": "Detonator",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "detonator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/just_putty_explosive/models/item/detonator.json",
+          "src/main/java/net/timelesswastaken/justputtyexplosive/item/DetonatorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ExplosivePuttyRigged",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "explosive_putty_rigged",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/just_putty_explosive/blockstates/explosive_putty_rigged.json",
+          "src/main/resources/assets/just_putty_explosive/models/block/explosive_putty_rigged.json",
+          "src/main/java/net/timelesswastaken/justputtyexplosive/block/ExplosivePuttyRiggedBlock.java",
+          "src/main/resources/assets/just_putty_explosive/models/item/explosive_putty_rigged.json"
+        ]
+      }
+    },
+    {
+      "name": "RiggedPutty",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rigged_putty",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/just_putty_explosive/loot_tables/blocks/explosive_putty_rigged.json"
+        ]
+      }
+    },
+    {
+      "name": "ExplosivePuttyOnBlockRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "explosive_putty_on_block_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/timelesswastaken/justputtyexplosive/procedures/ExplosivePuttyOnBlockRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "BlastingCapRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "blasting_cap_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/timelesswastaken/justputtyexplosive/procedures/BlastingCapRightclickedOnBlockProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Explosiveputtyrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "explosiveputtyrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/just_putty_explosive/advancements/recipes/explosiveputtyrecipe.json",
+          "src/main/resources/data/just_putty_explosive/recipes/explosiveputtyrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Blastingcaprecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "blastingcaprecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/just_putty_explosive/advancements/recipes/blastingcaprecipe.json",
+          "src/main/resources/data/just_putty_explosive/recipes/blastingcaprecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Detonatorrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "detonatorrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/just_putty_explosive/advancements/recipes/detonatorrecipe.json",
+          "src/main/resources/data/just_putty_explosive/recipes/detonatorrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PuttyExplosive",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "putty_explosive",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "IncendiaryExplosivePutty",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "incendiary_explosive_putty",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/just_putty_explosive/loot_tables/blocks/incendiary_explosive_putty.json",
+          "src/main/java/net/timelesswastaken/justputtyexplosive/block/IncendiaryExplosivePuttyBlock.java",
+          "src/main/resources/assets/just_putty_explosive/models/block/incendiary_explosive_putty.json",
+          "src/main/resources/assets/just_putty_explosive/models/item/incendiary_explosive_putty.json",
+          "src/main/resources/assets/just_putty_explosive/blockstates/incendiary_explosive_putty.json"
+        ]
+      }
+    },
+    {
+      "name": "IncendiaryExplosivePuttyRigged",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "incendiary_explosive_putty_rigged",
+      "metadata": {
+        "files": [
+          "src/main/java/net/timelesswastaken/justputtyexplosive/block/IncendiaryExplosivePuttyRiggedBlock.java",
+          "src/main/resources/assets/just_putty_explosive/models/item/incendiary_explosive_putty_rigged.json",
+          "src/main/resources/assets/just_putty_explosive/models/block/incendiary_explosive_putty_rigged.json",
+          "src/main/resources/assets/just_putty_explosive/blockstates/incendiary_explosive_putty_rigged.json"
+        ]
+      }
+    },
+    {
+      "name": "IncendiaryPuttyrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "incendiary_puttyrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/just_putty_explosive/advancements/recipes/incendiary_puttyrecipe.json",
+          "src/main/resources/data/just_putty_explosive/recipes/incendiary_puttyrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "HighExplosivePutty",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "high_explosive_putty",
+      "metadata": {
+        "files": [
+          "src/main/java/net/timelesswastaken/justputtyexplosive/block/HighExplosivePuttyBlock.java",
+          "src/main/resources/assets/just_putty_explosive/models/item/high_explosive_putty.json",
+          "src/main/resources/assets/just_putty_explosive/blockstates/high_explosive_putty.json",
+          "src/main/resources/assets/just_putty_explosive/models/block/high_explosive_putty.json",
+          "src/main/resources/data/just_putty_explosive/loot_tables/blocks/high_explosive_putty.json"
+        ]
+      }
+    },
+    {
+      "name": "HighExplosivePuttyRigged",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "high_explosive_putty_rigged",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/just_putty_explosive/models/block/high_explosive_putty_rigged.json",
+          "src/main/resources/assets/just_putty_explosive/blockstates/high_explosive_putty_rigged.json",
+          "src/main/resources/assets/just_putty_explosive/models/item/high_explosive_putty_rigged.json",
+          "src/main/java/net/timelesswastaken/justputtyexplosive/block/HighExplosivePuttyRiggedBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Highputtyrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "highputtyrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/just_putty_explosive/advancements/recipes/highputtyrecipe.json",
+          "src/main/resources/data/just_putty_explosive/recipes/highputtyrecipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "detonator_equip",
+      "files": [
+        "detonator_equip"
+      ],
+      "category": "player",
+      "subtitle": "Detonator activates"
+    },
+    {
+      "name": "detonator_link",
+      "files": [
+        "detonator_link"
+      ],
+      "category": "player",
+      "subtitle": "Detonator links"
+    },
+    {
+      "name": "detonator_activate",
+      "files": [
+        "detonator_activate"
+      ],
+      "category": "player",
+      "subtitle": "Detonator activates"
+    },
+    {
+      "name": "detonator_unlink",
+      "files": [
+        "detonator_unlink"
+      ],
+      "category": "player",
+      "subtitle": "Detonator unlinks"
+    },
+    {
+      "name": "blasting_cap_place",
+      "files": [
+        "blasting_cap_rig"
+      ],
+      "category": "block",
+      "subtitle": "Explosive rigged"
+    }
+  ],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.just_putty_explosive.explosive_putty": "Explosive Putty",
+      "item.just_putty_explosive.blasting_cap": "Blasting Cap",
+      "item.just_putty_explosive.detonator": "Detonator",
+      "block.just_putty_explosive.explosive_putty_rigged": "Explosive Putty (Rigged)",
+      "item_group.just_putty_explosive.putty_explosive": "Putty Explosive",
+      "block.just_putty_explosive.incendiary_explosive_putty": "Explosive Putty",
+      "block.just_putty_explosive.incendiary_explosive_putty_rigged": "Explosive Putty (Rigged)",
+      "block.just_putty_explosive.high_explosive_putty": "Explosive Putty",
+      "block.just_putty_explosive.high_explosive_putty_rigged": "Explosive Putty (Rigged)",
+      "subtitles.detonator_equip": "Detonator activates",
+      "subtitles.detonator_link": "Detonator links",
+      "subtitles.detonator_activate": "Detonator activates",
+      "subtitles.detonator_unlink": "Detonator unlinks",
+      "subtitles.blasting_cap_place": "Explosive rigged"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/timelesswastaken/justputtyexplosive/init/JustPuttyExplosiveModBlocks.java",
+      "src/main/java/net/timelesswastaken/justputtyexplosive/init/JustPuttyExplosiveModItems.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/timelesswastaken/justputtyexplosive/init/JustPuttyExplosiveModSounds.java",
+      "src/main/java/net/timelesswastaken/justputtyexplosive/init/JustPuttyExplosiveModTabs.java",
+      "src/main/resources/assets/just_putty_explosive/sounds.json",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/java/net/timelesswastaken/justputtyexplosive/JustPuttyExplosiveMod.java",
+      "src/main/resources/META-INF/accesstransformer.cfg"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "just_putty_explosive",
+    "modName": "Just Putty Explosives",
+    "version": "1.0.0",
+    "description": "A small mod about remotely detonated explosives.",
+    "author": "TimelessWasTaken",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.timelesswastaken.justputtyexplosive"
+  },
+  "mcreatorVersion": 202500345720
+}

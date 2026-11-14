@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "just_putty_explosive:item/incendiary_explosive_putty"
+  },
+  "render_type": "translucent"
+}

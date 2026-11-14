@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gunpowder"
+    },
+    "b": {
+      "item": "just_putty_explosive:explosive_putty"
+    }
+  },
+  "result": {
+    "item": "just_putty_explosive:high_explosive_putty",
+    "count": 1
+  }
+}

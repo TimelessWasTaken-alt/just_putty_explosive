@@ -1,0 +1,16 @@
+{
+  "block.just_putty_explosive.explosive_putty": "Explosive Putty",
+  "item.just_putty_explosive.blasting_cap": "Blasting Cap",
+  "item.just_putty_explosive.detonator": "Detonator",
+  "block.just_putty_explosive.explosive_putty_rigged": "Explosive Putty (Rigged)",
+  "item_group.just_putty_explosive.putty_explosive": "Putty Explosive",
+  "block.just_putty_explosive.incendiary_explosive_putty": "Explosive Putty",
+  "block.just_putty_explosive.incendiary_explosive_putty_rigged": "Explosive Putty (Rigged)",
+  "block.just_putty_explosive.high_explosive_putty": "Explosive Putty",
+  "block.just_putty_explosive.high_explosive_putty_rigged": "Explosive Putty (Rigged)",
+  "subtitles.detonator_equip": "Detonator activates",
+  "subtitles.detonator_link": "Detonator links",
+  "subtitles.detonator_activate": "Detonator activates",
+  "subtitles.detonator_unlink": "Detonator unlinks",
+  "subtitles.blasting_cap_place": "Explosive rigged"
+}

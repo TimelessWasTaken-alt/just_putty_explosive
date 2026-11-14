@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "net.timelesswastaken.justputtyexplosive.mixin",
+  "refmap": "just_putty_explosive.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "mixins": [
+    "PuttyItemMixin",
+    "PuttyItemStackMixin"
+  ],
+  "client": [
+    "PuttyPotRenderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

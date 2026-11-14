@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Exec(findstr)",
+      "Exec(java)",
+      "Exec(./gradlew)",
+      "Exec(python)",
+      "Exec(_JAVA_OPTIONS=-Xmx4G ./gradlew build)"
+    ]
+  }
+}

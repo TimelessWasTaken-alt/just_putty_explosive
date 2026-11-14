@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "just_putty_explosive:blocks/explosive_putty",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "just_putty_explosive:explosive_putty"
+        }
+      ]
+    }
+  ]
+}

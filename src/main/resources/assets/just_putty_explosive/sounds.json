@@ -1,0 +1,47 @@
+{
+  "detonator_equip": {
+    "subtitle": "subtitles.detonator_equip",
+    "sounds": [
+      {
+        "name": "just_putty_explosive:detonator_equip",
+        "stream": false
+      }
+    ]
+  },
+  "detonator_link": {
+    "subtitle": "subtitles.detonator_link",
+    "sounds": [
+      {
+        "name": "just_putty_explosive:detonator_link",
+        "stream": false
+      }
+    ]
+  },
+  "detonator_activate": {
+    "subtitle": "subtitles.detonator_activate",
+    "sounds": [
+      {
+        "name": "just_putty_explosive:detonator_activate",
+        "stream": false
+      }
+    ]
+  },
+  "detonator_unlink": {
+    "subtitle": "subtitles.detonator_unlink",
+    "sounds": [
+      {
+        "name": "just_putty_explosive:detonator_unlink",
+        "stream": false
+      }
+    ]
+  },
+  "blasting_cap_place": {
+    "subtitle": "subtitles.blasting_cap_place",
+    "sounds": [
+      {
+        "name": "just_putty_explosive:blasting_cap_rig",
+        "stream": false
+      }
+    ]
+  }
+}
